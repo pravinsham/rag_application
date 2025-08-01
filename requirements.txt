@@ -5,10 +5,10 @@ streamlit
 python-dotenv==1.0.1
 
 # LangChain framework and integrations
-langchain==0.2.11
-langchain-core==0.2.20
-langchain-community==0.2.11
-langchain-openai==0.1.8
+langchain
+langchain-core
+langchain-community
+langchain-openai
 
 # Document loading and processing
 unstructured[pdf]==0.14.4
