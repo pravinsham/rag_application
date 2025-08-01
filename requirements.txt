@@ -1,6 +1,4 @@
 pypdf
-langchain
-chromadb # Vector storage
 pytest
 boto3
 python-dotenv==1.0.1 # For reading environment variables stored in .env file
