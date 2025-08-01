@@ -19,3 +19,6 @@ chromadb
 onnxruntime
 openai
 tiktoken
+
+# Fix for sqlite3 version incompatibility with chromadb
+pysqlite3-binary
