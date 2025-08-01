@@ -2,20 +2,20 @@
 streamlit
 
 # For reading environment variables
-python-dotenv==1.0.1
+python-dotenv
 
 # LangChain framework and integrations
-langchain==0.2.20
-langchain-core==0.2.20
+langchain
+langchain-core
 langchain-community
-langchain-openai==0.1.8
+langchain-openai
 
 # Document loading and processing
 unstructured[pdf]
-pypdf==4.2.0
+pypdf
 
 # Vector storage and embeddings
-chromadb==0.5.0
-onnxruntime==1.17.1
-openai==1.31.1
-tiktoken==0.7.0
+chromadb
+onnxruntime
+openai
+tiktoken
