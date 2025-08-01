@@ -5,13 +5,13 @@ streamlit
 python-dotenv==1.0.1
 
 # LangChain framework and integrations
-langchain==0.2.2
-langchain-community==0.2.3
+langchain==0.2.11
+langchain-core==0.2.20
+langchain-community==0.2.11
 langchain-openai==0.1.8
 
 # Document loading and processing
 unstructured[pdf]==0.14.4
-unstructured-inference==0.14.4
 pypdf==4.2.0
 
 # Vector storage and embeddings
