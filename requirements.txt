@@ -7,7 +7,7 @@ python-dotenv==1.0.1
 # LangChain framework and integrations
 langchain==0.2.20
 langchain-core==0.2.20
-langchain-community==0.2.20
+langchain-community
 langchain-openai==0.1.8
 
 # Document loading and processing
