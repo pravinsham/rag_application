@@ -19,4 +19,4 @@ chromadb
 onnxruntime
 openai
 tiktoken
-sqlite==3.35.0
+sqlite==3.46.0
