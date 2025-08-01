@@ -1,0 +1,37 @@
+
+graph TD
+
+    subgraph Section 5.1: Request Initiation
+        A[Authorized Client / Partners / Representatives] --> |Initiate report request| B[Authorized ProPharma Employees]
+        B --> C{Report Request Tracking and Triage}
+        C --> |Initiate report request| D[Lead Argus Technician]
+        D --> E{Report Fulfillment Expectations}
+    end
+
+    subgraph Section 5.3: Report Fulfillment Expectations
+        E --> F{Report Fulfillment Plan Preparation}
+        F --> |Generate Report Fulfillment Plan| G[Lead Argus Technician]
+        G --> H[Authorized Client / Partners / Representatives]
+        H --> I{Report Fulfillment Plan Touchpoint}
+        I --> |Schedule touchpoint| J[Lead Argus Technician]
+        J --> K{Review and Approve Verification/Validation}
+        K --> L{Generate System Reports}
+        L --> M{Monitor Report Requests}
+    end
+
+    subgraph Section 5.5: Report Fulfillment Plan Preparation
+        F --> N{Review Report Requests}
+        N --> O{Participate in Touchpoint}
+        O --> P{Cancel Touchpoint}
+    end
+
+    subgraph Section 5.10: Report Fulfillment Recurrence
+        M --> Q(Request recurring fulfillment of existing reports)
+    end
+
+    subgraph Section 5.12: Escalation Process
+        L --> R{Escalate Report Requests}
+        R --> S{Review Regulatory Authority Requests}
+        S --> T{Schedule Touchpoint}
+    end
+```
