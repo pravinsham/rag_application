@@ -7,8 +7,6 @@ from langchain_openai import ChatOpenAI
 
 from get_embedding_function import get_embedding_function
 
-CHROMA_PATH = "chroma"
-
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
 
