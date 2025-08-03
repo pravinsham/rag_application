@@ -3,14 +3,17 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
+import os
 
 from get_embedding_function import get_embedding_function
 
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(script_dir, "chroma")
 
-CHROMA_PATH = "chroma"
+CHROMA_PATH = db_path
 
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
