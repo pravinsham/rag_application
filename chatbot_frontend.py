@@ -47,8 +47,8 @@ def main():
     """
     st.set_page_config(page_title="RAG Chatbot", page_icon="🤖")
 
-    st.title("RAG Chatbot")
-    st.caption("Chat with your documents stored in ChromaDB.")
+    st.title("Argus Safety ChatBot")
+    st.caption("Chat with ArgusSafety Guides and Associated Documents")
 
     # Initialize chat history in session state
     if "messages" not in st.session_state:
